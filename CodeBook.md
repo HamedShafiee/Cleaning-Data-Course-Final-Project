@@ -1,5 +1,5 @@
-* General Introduction to the Project
-# `run_analysis.R`Script, does a 5 steps process based on the requirements of the project as following:
+# General Introduction to the Project
+* `run_analysis.R`Script, does a 5 steps process based on the requirements of the project as following:
 
 * 1-Merges the training and the test sets to create one data set.
 ## installing and opening the packages
