@@ -1,5 +1,5 @@
 
-# installing and opening the required packages
+# installing and opening the packages
 install.packages("data.table")
 library(data.table)
 library(dplyr)
@@ -16,9 +16,9 @@ if(!file.exists("./cleaningprojectdata")){dir.create("./cleaningprojectdata")}
 downloadPath <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 
 # Downloading the required data
-#download.file(downloadPath,destfile="./cleaningprojectdata/Dataset.zip")
+download.file(downloadPath,destfile="./cleaningprojectdata/Dataset.zip")
 # the data should be unzipped in the created directory
-#unzip(zipfile="./cleaningprojectdata/Dataset.zip",exdir="./cleaningprojectdata")
+unzip(zipfile="./cleaningprojectdata/Dataset.zip",exdir="./cleaningprojectdata")
 
 # reading existing files in unzipped folder and storing them into data tables
 # setting path of the unzipped files
