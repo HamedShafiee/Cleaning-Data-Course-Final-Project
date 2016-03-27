@@ -1,7 +1,7 @@
 # General Introduction to the Project
 * `run_analysis.R`Script, does a 5 steps process based on the requirements of the project as following:
 
-# Preparation
+# Step 0: Preparation
 * installing and opening the packages
 * install.packages("data.table")
 * setting the working directory for downloading the project data
@@ -42,4 +42,12 @@
 # Step 5-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # Variables of the Project
-
+* 3 packages are used: data.table,dplyr and tidyr
+* data are stored in the follwoing variables:
+* subject vars: SubjectTrainSet, SubjectTestSet
+* activity vars: ActivityTrainSet, ActivityTestSet
+* Trainig and Testing sets: Train,Test
+* all subject data: FullSubject
+* all activity data: FullActivity
+* all data: Fulldata
+* final tidy data: "tidydata.txt"
